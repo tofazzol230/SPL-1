@@ -1,5 +1,7 @@
 # SPL-1
 
-**Name:** Md.Tofazzol Alam rahat
+**Name:** Md. Tofazzol Alam Rahat
+
 **Class Roll:** BSSE-1740
-**Registration Number:**2024514237
+
+**Registration Number:** 2024514237
