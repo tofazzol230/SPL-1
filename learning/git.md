@@ -50,7 +50,8 @@ git clone
 ```text
 SPL-1/
 ├── README.md
-└── Git/
-    └── git-notes.md
+└── learning/
+    ├── git.md
+    └── distance-vector.md
 ```
 
