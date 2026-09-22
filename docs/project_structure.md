@@ -89,11 +89,11 @@ flowchart TD
 
     VIZ --> U
 
-    classDef user fill:#f5f5f5,stroke:#333,stroke-width:2px;
-    classDef java fill:#e8f0fe,stroke:#356ae6,stroke-width:2px;
-    classDef cpp fill:#eef7ee,stroke:#3c7a3c,stroke-width:2px;
-    classDef algo fill:#fff4df,stroke:#c47b00,stroke-width:2px;
-    classDef output fill:#f4eafa,stroke:#7a3e9d,stroke-width:2px;
+    classDef user fill:#000000,stroke:#333,stroke-width:2px;
+    classDef java fill:#000000,stroke:#356ae6,stroke-width:2px;
+    classDef cpp fill:#000000,stroke:#3c7a3c,stroke-width:2px;
+    classDef algo fill:#000000,stroke:#c47b00,stroke-width:2px;
+    classDef output fill:#000000,stroke:#7a3e9d,stroke-width:2px;
 
     class U user;
     class GUI,IPC,VIZ java;
@@ -165,12 +165,12 @@ flowchart TB
     IPC --> ANIM
     IPC --> TABLE
 
-    classDef user fill:#f8f8f8,stroke:#444,stroke-width:2px;
-    classDef gui fill:#eaf2ff,stroke:#3b73d1,stroke-width:2px;
-    classDef comm fill:#fff3cd,stroke:#b8860b,stroke-width:2px;
-    classDef cpp fill:#eaf6ea,stroke:#3f7f3f,stroke-width:2px;
-    classDef algo fill:#fcebdc,stroke:#c46b20,stroke-width:2px;
-    classDef state fill:#f1e8f8,stroke:#7b4b9a,stroke-width:2px;
+    classDef user fill:#0,stroke:#444,stroke-width:2px;
+    classDef gui fill:#0,stroke:#3b73d1,stroke-width:2px;
+    classDef comm fill:#0,stroke:#b8860b,stroke-width:2px;
+    classDef cpp fill:#0,stroke:#3f7f3f,stroke-width:2px;
+    classDef algo fill:#0,stroke:#c46b20,stroke-width:2px;
+    classDef state fill:#0,stroke:#7b4b9a,stroke-width:2px;
 
     class U user;
     class GUI,TOPO,CTRL,ANIM,TABLE gui;
