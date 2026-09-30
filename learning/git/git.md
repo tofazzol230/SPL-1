@@ -56,3 +56,4 @@ SPL-1/
 ```
 
 Git diff practice
+Stage practice 1
