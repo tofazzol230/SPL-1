@@ -55,3 +55,4 @@ SPL-1/
     └── distance-vector.md
 ```
 
+Git diff practice
