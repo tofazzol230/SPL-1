@@ -8,7 +8,7 @@ int main(){
     Router routerB("B");
     Router routerC("C");
     
-    Link linkAB(routerA.getId(), routerB.getId(), 5);
+    /*Link linkAB(routerA.getId(), routerB.getId(), 5);
     Link linkBC(routerB.getId(), routerC.getId(), 5);
 
     Network network;
@@ -20,9 +20,9 @@ int main(){
     network.addLink(linkAB);
     network.addLink(linkBC);
 
-    /*std::cout<<"Router A: "<<link.getRouterA()<<std::endl;
+    std::cout<<"Router A: "<<link.getRouterA()<<std::endl;
     std::cout << "Router B: " << link.getRouterB()<<std::endl;
-    std::cout<<"Link Cost: "<<link.getCost()<<std::endl;*/
+    std::cout<<"Link Cost: "<<link.getCost()<<std::endl;
     std::cout<<"Routers:"<<std::endl;
 
     for(const Router& router:network.getRouters()) {
@@ -33,6 +33,10 @@ int main(){
 
     for(const Link& link:network.getLinks()){
         std::cout<<"- "<< link.getRouterA()<<"<-> "<<link.getRouterB()<<" | Cost: "<< link.getCost()<< std::endl;
-    }
+    }*/
+    routerA.setRoute("B", 5);
+
+    std::cout<<"Router: "<<routerA.getId()<<std::endl;
+    std::cout<<"Distance from A to B: "<<routerA.getRoute("B")<< std::endl;
     return 0;
 }
